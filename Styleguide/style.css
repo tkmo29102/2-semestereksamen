@@ -7,15 +7,15 @@
     overflow-x: hidden;
     overflow-y: auto;
     color: #383434;
-  
+
   }
-  
+
   h1, a, h2, h3, h4{
     font-family: Poppins, sans-serif;
     color: #383434;
-    
+
   }
-  
+
   p {
     font-family: Poppins, sans-serif;
     color: white;
@@ -23,14 +23,14 @@
     font-style: normal;
     color:#383434;
   }
-  
-  
+
+
   /* --- Flexbox  --- */
   .flexWrapper {
     display: flex;
   }
-  
-  
+
+
   /* --- Aside nav wrapper  --- */
   .asideWrapper {
       height: 100%;
@@ -42,18 +42,18 @@
       display: flex;
       z-index: 100;
   }
-  
-  
+
+
   /* --- Aside NAV  --- */
   .navWrapper ul {
     margin-left: 15px;
     list-style: none;
   }
-  
+
   .navWrapper ul li {
     margin: 25px 5px;
   }
-  
+
   .navWrapper ul li a {
     display: block;
     padding: 5px;
@@ -64,21 +64,21 @@
     overflow: hidden;
     transition: color 0.2s ease-in-out;
   }
-  
+
   .navWrapper ul li a:after,
   .navWrapper ul li a:before {
     transition: all 0.5s;
   }
-  
+
   .navWrapper ul li a:hover {
     color: #fff;
   }
-  
+
   /* stroke */
   .navWrapper ul li a {
     position: relative;
   }
-  
+
   .navWrapper ul li a:after {
     position: absolute;
     bottom: 0;
@@ -90,11 +90,11 @@
     background: #fff;
     height: 2px;
   }
-  
+
   .navWrapper ul li a:hover:after {
     width: 70%;
   }
-  
+
   /* --- Aside LOGO  --- */
   .asideWrapper img {
     position: absolute;
@@ -102,7 +102,7 @@
     height: 130px;
     top: 0;
   }
-  
+
   /* --- main wrapper  --- */
   .mainWrapper {
     position: relative;
@@ -112,7 +112,7 @@
     background-color: #F8F7F7;
   }
 
-  
+
   /* --- First section / Landing section  --- */
   .landingSection {
     width: 85%;
@@ -133,21 +133,21 @@
     width: 20%;
     margin: -450px 0px 0px 40px;
   }
-  
+
   .landingSection h1, h2 {
     font-size: 40px;
     color: #383434;
     margin-left: 10%;
     font-family: proxima-nova, sans-serif;
   }
-  
+
   .landingSection h3 {
     font-size: 20px;
     color: #383434;
     margin-left: 10%;
     font-family: proxima-nova, sans-serif;
   }
-  
+
   .landingSection p {
     font-size: 20px;
     line-height: 25px;
@@ -158,13 +158,13 @@
   }
 
 /* --- Typografi  --- */
-  
+
   .typoBorder {
       padding-bottom: 5%;
       border-bottom: 2px solid white;
       }
-  
-  
+
+
   .typoSection {
     width: 100%;
     height: auto;
@@ -175,7 +175,7 @@
     font-family: proxima-nova, sans-serif;
     margin-top: 5%;
   }
-  
+
   .typoSection h1 {
     margin-top: 60px;
     margin-bottom: 3%;
@@ -183,59 +183,59 @@
     width: 100%;
     color: #383434;
   }
-  
+
   .typoSection article {
     width: 35%;
   }
-  
+
   .typoSection article h2 {
     color: #383434;
     margin-top: 10%;
     font-size: 40px;
   }
-  
+
   .typoSection article h3 {
     color: #383434;
     margin-top: 10%;
   }
-  
+
   .typoSection article hr {
     width: 60%;
   }
-  
+
   .typoSection article p {
     color: #383434;
     font-size: 20px;
     margin-bottom: 5%;
     margin-top: 2%;
   }
-  
-  
+
+
   #ekstypografi{
     font-size: 30px;
   }
-  
+
   #eksoverskrift{
     font-size: 20px;
   }
-  
+
   #eksparagraf{
   font-size: 16px;
   }
-  
+
   #fontdl{
     cursor: pointer;
     display: inline-block;
   }
-  
-  
+
+
   /*CODE SNIPPETS*/
-  
+
   .typoSection .ptools {
     width: 40%;
     margin-left: -5%;
   }
-  
+
   .typoSection .ptools h2 {
     color: #383434;
     margin-top: 60px;
@@ -243,25 +243,25 @@
     font-size: 40px;
     margin-left: 20%;
   }
-  
+
   .typoSection .ptools h3 {
     color: #383434;
     margin-left: 20%;
-  
+
   }
-  
+
   .typoSection .ptools hr {
     width: 100%;
     margin: 10px 0;
     margin-left: 20%;
   }
-  
+
   .typoSection .ptools p {
     color: #383434;
     font-size: 20px;
     margin: 10px 0;
   }
-  
+
   .codeEmbed {
     position: relative;
     padding: 20px;
@@ -271,22 +271,22 @@
     margin-left: 20%;
     width: 75%;
     }
-  
+
   .codeEmbed code {
     font-size: 20px;
   }
-  
 
 
-  
+
+
   /* --- Farver  --- */
-  
+
   .farverBorder {
       padding-bottom: 5%;
       border-bottom: 2px solid white;
   }
-  
-  
+
+
   .farveSection {
     width: 100%;
     height: auto;
@@ -295,7 +295,7 @@
     margin-left: 5%;
     margin-bottom: 5%;
   }
-  
+
   .farveSection h1 {
     margin-bottom: 40px;
     margin-top: 60px;
@@ -305,7 +305,7 @@
     font-family: proxima-nova, sans-serif;
     margin-left: 0%;
   }
-  
+
   .farveSection .color {
     margin: 14px 0px;
     width: 70%;
@@ -313,7 +313,7 @@
     display: flex;
     flex-direction: row;
   }
-  
+
   .colorInfo {
     width: 50%;
     display: flex;
@@ -322,17 +322,17 @@
     margin-left: 5%;
     align-items: center;
   }
-  
+
   .colorInfo div:first-child {
     margin-right: 50px;
   }
-  
+
   .white div p {
-    color: #383434;
+    color: #FFF;
     font-size: 20px;
     margin-left: 0%;
   }
-  
+
   .black div p {
     color: black;
     font-size: 20px;
@@ -341,8 +341,8 @@
 
 
   /* --- moodaboard section  --- */
-  
-  
+
+
   .moodBoard {
     padding-bottom: 5%;
     border-bottom: 2px solid white;
@@ -406,7 +406,7 @@
   color: white;
   margin-left: 5%;
   margin-top: 5%;
-  
+
 }
 
 
@@ -459,15 +459,15 @@
   font-size: 20px;
 }
 
-    
+
   /* --- Logo section  --- */
-  
+
   .logoBorder {
     background-color: #F0E7D4;
       padding-bottom: 5%;
       border-bottom: 2px solid white;
   }
-  
+
   .logoSection {
     width: 100%;
     height: auto;
@@ -477,7 +477,7 @@
     margin-left: 5%;
     margin-bottom: 5%;
   }
-  
+
   .logoSection h1 {
     margin-top: 60px;
     margin-bottom: 3%;
@@ -485,57 +485,57 @@
     width: 100%;
     color: #383434;
   }
-  
+
   .logoSection img {
     width: 80%;
   }
-  
+
   .logoSection h3 {
     font-size: 20px;
     color: #383434;
   }
-  
+
   .logoSection hr {
     width: 400px;
   }
-  
+
   .logoHvid {
     margin-top: 30px;
     padding: 14px 16px;
     width: 100%;
   }
 
-  .logolight{  
+  .logolight{
     background-color: #383434;
    }
-  
+
   .logoSection article {
     width: 35%;
   }
-  
+
   .logoSection article h2 {
     color: #383434;
     margin: 10px 0;
     font-size: 40px;
   }
-  
+
   .logoSection article h3 {
     color: #383434;
   }
-  
+
   .logoSection article hr {
     width: 60%;
     margin: 10px 0;
   }
-  
+
   .logoSection article p {
     color: #383434;
     font-size: 20px;
     margin: 10px 0;
   }
-  
+
   /*Code Snippets*/
-  
+
   .codeEmbedLogo {
     position: relative;
     padding: 20px;
@@ -545,16 +545,16 @@
     margin-left: 20%;
     width: 75%;
   }
-  
+
   .codeEmbedLogo code {
     font-size: 20px;
   }
-  
+
   .logoSection .ptools {
     width: 40%;
     margin-left: -5%;
   }
-  
+
   .logoSection .ptools h2 {
     color: #383434;
     margin-top: 60px;
@@ -562,34 +562,34 @@
     font-size: 40px;
     margin-left: 20%;
   }
-  
+
   .logoSection .ptools h3 {
     color: #383434;
     margin-left: 20%;
-  
+
   }
-  
+
   .logoSection .ptools hr {
     width: 100%;
     margin: 10px 0;
     margin-left: 20%;
   }
-  
+
   .logoSection .ptools p {
     color: white;
     font-size: 20px;
     margin: 10px 0;
   }
-  
-  
+
+
   /* --- Knapper section  --- */
-  
-  
+
+
   .knapperBorder {
       padding-bottom: 5%;
       border-bottom: 2px solid white;
   }
-  
+
   .knapperSection {
     width: 100%;
     height: auto;
@@ -600,7 +600,7 @@
     font-family: proxima-nova, sans-serif;
     margin-top: 5%;
   }
-  
+
   .knapperSection h1 {
     margin-top: 60px;
     margin-bottom: 3%;
@@ -608,26 +608,26 @@
     width: 100%;
     color: #383434;
   }
-  
+
   .knapperSection article {
     width: 35%;
   }
-  
+
   .knapperSection article h2 {
     color: #383434;
     margin: 10px 0;
     font-size: 40px;
   }
-  
+
   .knapperSection article h3 {
     color: #383434;
   }
-  
+
   .knapperSection article hr {
     width: 60%;
     margin: 10px 0;
   }
-  
+
   .knapperSection article p {
     color: #383434;
     font-size: 20px;
@@ -650,23 +650,23 @@
     font-size: 18px;
    }
 
-  
-  
-  
+
+
+
   /* atomic Knapper */
-  
+
   .atomicknapper {
     width: 70%;
     margin-left: 5%;
     margin-top: 1%;
   }
-  
+
   .knapperBorder .atomicheaderknapper {
     font-size: 22px;
     color: white;
     margin-left: 5%;
     margin-top: 5%;
-    
+
   }
 
   .btn-group .button1 {
@@ -695,14 +695,14 @@
     float: left;
     border-radius: 0px 30px 30px 0px ;
   }
-  
+
   .btn-group .button1:not(:last-child) {
     border-right: none; /* Prevent double borders */
   }
   .btn-group .button2:not(:last-child) {
     border-right: none; /* Prevent double borders */
   }
-  
+
   .btn-group .button1:hover {
     background-color: #BA563E;
     color: white;
@@ -711,18 +711,18 @@
     background-color: #BA563E;
     color: white;
   }
-  
 
-  
-  
-  
+
+
+
+
   /*CODE SNIPPETS*/
-  
+
   .knapperSection .ptools {
     width: 40%;
     margin-left: -5%;
   }
-  
+
   .knapperSection .ptools h2 {
     color: #383434;
     margin-top: 60px;
@@ -730,25 +730,25 @@
     font-size: 40px;
     margin-left: 20%;
   }
-  
+
   .knapperSection .ptools h3 {
     color: #383434;
     margin-left: 20%;
-  
+
   }
-  
+
   .knapperSection .ptools hr {
     width: 100%;
     margin: 10px 0;
     margin-left: 20%;
   }
-  
+
   .Section .ptools p {
     color: #383434;
     font-size: 20px;
     margin: 10px 0;
   }
-  
+
   .codeEmbed {
     position: relative;
     padding: 20px;
@@ -758,11 +758,11 @@
     margin-left: 20%;
     width: 75%;
   }
-  
+
   .codeEmbed code {
     font-size: 20px;
   }
-  
+
   /* progress bar */
 
   .progress .button {
@@ -806,7 +806,7 @@
     float: left;
     border-radius: 0px 30px 30px 0px ;
   }
-  
+
   /* placeholder*/
   .required {
     color: tomato;
@@ -815,8 +815,8 @@
     left: 40%;
   }
 
-  
-  
+
+
   /* NAV knap */
   .navList {
     width: 300px;
@@ -826,16 +826,16 @@
     text-align: left;
     margin-top: 5%;
   }
-  
+
   .navList a {
     top: 54%;
     text-decoration: underline;
     color: #121B2E;
     font-size: 15px;
   }
-  
-  
-  
+
+
+
   /* Standard BTN */
   .standardBtn {
     display: block;
@@ -845,7 +845,7 @@
     border-radius: 5px;
     box-shadow: 2px 4px 8px #383434b2;
     background-color: #BA563E;
-  
+
     border: none;
     text-align: center;
     text-decoration: none;
@@ -866,7 +866,7 @@
     border-radius: 5px;
     box-shadow: 2px 4px 8px #383434b2;
     background-color: #5D7F8E;
-  
+
     border: none;
     text-align: center;
     text-decoration: none;
@@ -879,15 +879,15 @@
     background-color: #22313F;
   }
 
-  
+
   /* --- Typografi  --- */
-  
+
   .typoBorder {
       padding-bottom: 5%;
       border-bottom: 2px solid white;
       }
-  
-  
+
+
   .typoSection {
     width: 100%;
     height: auto;
@@ -898,7 +898,7 @@
     font-family: proxima-nova, sans-serif;
     margin-top: 5%;
   }
-  
+
   .typoSection h1 {
     margin-top: 60px;
     margin-bottom: 3%;
@@ -906,59 +906,59 @@
     width: 100%;
     color: #383434;
   }
-  
+
   .typoSection article {
     width: 35%;
   }
-  
+
   .typoSection article h2 {
     color: #383434;
     margin-top: 10%;
     font-size: 40px;
   }
-  
+
   .typoSection article h3 {
     color: #383434;
     margin-top: 10%;
   }
-  
+
   .typoSection article hr {
     width: 60%;
   }
-  
+
   .typoSection article p {
     color: #383434;
     font-size: 20px;
     margin-bottom: 5%;
     margin-top: 2%;
   }
-  
-  
+
+
   #ekstypografi{
     font-size: 30px;
   }
-  
+
   #eksoverskrift{
     font-size: 20px;
   }
-  
+
   #eksparagraf{
   font-size: 16px;
   }
-  
+
   #fontdl{
     cursor: pointer;
     display: inline-block;
   }
-  
-  
+
+
   /*CODE SNIPPETS*/
-  
+
   .typoSection .ptools {
     width: 40%;
     margin-left: -5%;
   }
-  
+
   .typoSection .ptools h2 {
     color: #383434;
     margin-top: 60px;
@@ -966,25 +966,25 @@
     font-size: 40px;
     margin-left: 20%;
   }
-  
+
   .typoSection .ptools h3 {
     color: #383434;
     margin-left: 20%;
-  
+
   }
-  
+
   .typoSection .ptools hr {
     width: 100%;
     margin: 10px 0;
     margin-left: 20%;
   }
-  
+
   .typoSection .ptools p {
     color: #383434;
     font-size: 20px;
     margin: 10px 0;
   }
-  
+
   .codeEmbed {
     position: relative;
     padding: 20px;
@@ -994,24 +994,24 @@
     margin-left: 20%;
     width: 75%;
     }
-  
+
   .codeEmbed code {
     font-size: 20px;
   }
-  
-  
-  
-  
-  
+
+
+
+
+
   /* input felter */
-  
+
   .inputBorder {
       padding-bottom: 5%;
       border-bottom: 2px solid white;
       background-color: #383434;
   }
-  
-  
+
+
   .inputSection {
     width: 100%;
     height: auto;
@@ -1022,7 +1022,7 @@
     font-family: proxima-nova, sans-serif;
     margin-top: 5%;
   }
-  
+
   .inputSection h1 {
     margin-top: 60px;
     margin-bottom: 1%;
@@ -1030,43 +1030,43 @@
     width: 100%;
     color: #fff;
   }
-  
+
   .inputSection p {
       width: 100%;
       margin-bottom: 0.5%;
       font-size: 16px;
       color: #fff;
   }
-  
+
   .inputSection article {
     width: 35%;
   }
-  
+
   .inputSection article h2 {
     color: #fff;
     margin-top: 5%;
     font-size: 40px;
   }
-  
+
   .inputSection article h3 {
     color: #fff;
     margin-top: 10%;
     text-decoration: none;
   }
-  
-  
-  
+
+
+
   /*INPUT PASSWORD & TEXT*/
-  
-  
+
+
   .inp {
       position: relative;
       margin: auto;
       width: 100%;
       max-width: 35%;
   }
-  
-  
+
+
   .inp .label {
       position: absolute;
       top: 10px;
@@ -1075,8 +1075,8 @@
       transform-origin: 0 0;
       transition: all 0.2s ease;
   }
-  
-  
+
+
   .inp .border {
       position: absolute;
       bottom: 0;
@@ -1087,8 +1087,8 @@
       transform: scaleX(0);
       transition: all 0.15s ease;
   }
-  
-  
+
+
   .inp input {
       -webkit-appearance: none;
       width: 60%;
@@ -1102,80 +1102,80 @@
       transition: all 0.15s ease;
     font-size: 16px;
   }
-  
-  
+
+
   .inp input:hover {
       background: rgba(34,50,84,0.03);
   }
-  
-  
+
+
   .inp input:not(:placeholder-shown) + span {
       color: #c8ccd4;
       transform: translateY(-26px) scale(0.75);
   }
-  
-  
+
+
   .inp input:focus {
       background: none;
       outline: none;
   }
-  
-  
+
+
   .inp input:focus + span {
       color: #c8ccd4;
       transform: translateY(-26px) scale(0.75);
   }
-  
-  
+
+
   #email_error {
     color: #BD4444;
     position: absolute;
     top: 33px;
-  
+
   }
-  
-  
+
+
   #pass_error {
     color: #BD4444;
     position: absolute;
     top: 33px;
   }
-  
-  
+
+
   /* EMAIL ICON*/
-  
+
   .emailinp {
       position: relative;
       color: white;
   }
-  
-  
+
+
   .emailinp .fa-envelope {
       position: relative;
       top: 0px;
     margin-right: 8px;
     font-size: 16px;
   }
-  
+
   /*PASSWORD ICON*/
-  
+
   .passinp {
       position: relative;
       color: white;
   }
-  
-  
+
+
   .passinp .fa-lock {
       position: relative;
       top: 0px;
     margin-right: 8px;
       font-size: 16px;
   }
-  
-  
+
+
   /* Checkbox */
-  
-  
+
+
   .checkbox {
       display: block;
       position: relative;
@@ -1189,13 +1189,13 @@
       text-align: left;
     margin-top: 5%;
     color: #383434;
-  
+
   }
-  
+
   .checkbox u {
     color: #383434;
   }
-  
+
   .checkbox input {
     position: absolute;
     opacity: 0;
@@ -1203,8 +1203,8 @@
     height: 0;
     width: 0;
   }
-  
-  
+
+
   .checkmark {
     position: absolute;
     top: 0;
@@ -1213,25 +1213,25 @@
     width: 15px;
     background-color: #747474;
   }
-  
-  
+
+
   .checkbox input:checked ~ .checkmark {
     background-color: #383434;
   }
-  
-  
+
+
   .checkmark:after {
     content: "";
     position: absolute;
     display: none;
   }
-  
-  
+
+
   .checkbox input:checked ~ .checkmark:after {
     display: block;
   }
-  
-  
+
+
   .checkbox .checkmark:after {
     left: 4.5px;
     top: 3.5px;
@@ -1243,16 +1243,16 @@
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
-  
-  
-  
+
+
+
   /*CODE SNIPPETS*/
-  
+
   .inputSection .ptools {
     width: 40%;
     margin-left: -5%;
   }
-  
+
   .inputSection .ptools h2 {
     color: white;
     margin-top: 60px;
@@ -1260,25 +1260,25 @@
     font-size: 40px;
     margin-left: 20%;
   }
-  
+
   .inputSection .ptools h3 {
     color: white;
     margin-left: 20%;
-  
+
   }
-  
+
   .inputSection .ptools hr {
     width: 100%;
     margin: 10px 0;
     margin-left: 20%;
   }
-  
+
   .inputSection .ptools p {
     color: white;
     font-size: 20px;
     margin: 10px 0;
   }
-  
+
   .codeEmbed {
     position: relative;
     padding: 20px;
@@ -1288,38 +1288,38 @@
     margin-left: 20%;
     width: 75%;
   }
-  
+
   .codeEmbed code {
     font-size: 20px;
   }
-  
-  
+
+
   /* atomic inputs */
-  
+
   .atomicinputs {
     width: 70%;
     margin-left: 5%;
     margin-top: 1%;
   }
-  
+
   .inputBorder .atomicheaderinputs {
     font-size: 20px;
     color: white;
     margin-left: 5%;
     margin-top: 5%;
   }
-  
-  
-  
-  
+
+
+
+
   /* ---  Ikoner  --- */
-  
+
   .ikonerBorder {
       padding-bottom: 5%;
       border-bottom: 2px solid white;
   }
-  
-  
+
+
   .ikonerSection {
     width: 100%;
     height: auto;
@@ -1331,7 +1331,7 @@
     font-family: proxima-nova, sans-serif;
     margin-top: 5%;
   }
-  
+
   .ikonerSection h1 {
     margin-top: 60px;
     margin-bottom: 5%;
@@ -1339,69 +1339,69 @@
     width: 100%;
     color: #383434;
   }
-  
+
   .ikonerSection p {
       width: 100%;
       font-size: 16px;
       color: #383434;
   }
-  
+
   .ikonerSection article {
     width: 35%;
   }
-  
+
   .ikonerSection article h2 {
     color:#383434;
     margin-top: 5%;
     font-size: 40px;
   }
-  
+
   .ikonerSection article h3 {
     color: #383434;
     margin-top: 10%;
     text-decoration: none;
   }
-  
+
   .ikonerSection article a {
     font-size: 16px;
     color: #383434;
   }
-  
-  
-  
+
+
+
   /*CODE SNIPPETS*/
-  
+
   .ikonerSection .ptools {
     width: 40%;
     margin-left: -5%;
   }
-  
+
   .ikonerSection .ptools h2 {
     color: #383434;
     font-size: 40px;
     margin-left: 20%;
     margin-top: 60px;
   }
-  
+
   .ikonerSection .ptools h3 {
     color: #383434;
     margin-left: 20%;
     margin-top: 5%;
-  
+
   }
-  
+
   .ikonerSection .ptools hr {
     width: 100%;
     margin: 10px 0;
     margin-left: 20%;
   }
-  
+
   .ikonerSection .ptools p {
     color: #383434;
     font-size: 20px;
     margin: 10px 0;
   }
-  
+
   .codeEmbed {
     position: relative;
     padding: 20px;
@@ -1411,15 +1411,15 @@
     margin-left: 20%;
     width: 75%;
   }
-  
+
   .codeEmbed code {
     font-size: 20px;
   }
-  
-  
-  
+
+
+
   /*icon-table*/
-  
+
   .ikonerSection .ptools2 {
     width: 40%;
     margin-left: -5%;
@@ -1430,13 +1430,13 @@
     flex-wrap: wrap;
     margin-top: -5%;
   }
-  
+
   .ikonerSection .ptools2 h2 {
     color: white;
     font-size: 40px;
     margin-left: 5%;
   }
-  
+
   .ikonerSection .iconTable {
     width: 35%;
     margin-left: -22.5%;
@@ -1445,9 +1445,9 @@
     color: white;
     background-color: #121B2E;
     font-family: proxima-nova, sans-serif;
-  
+
   }
-  
+
   .iconTable tr th {
     border: 1px solid white;
     padding: 1em;
@@ -1456,7 +1456,7 @@
     text-align: left;
     font-family: proxima-nova, sans-serif;
   }
-  
+
   .fas {
     font-size: 25px;
     text-align: center;
@@ -1465,34 +1465,34 @@
     font-size: 25px;
     text-align: center;
   }
-  
-  
+
+
   /* atomic ikoner */
-  
+
   .atomicikoner {
     width: 70%;
     margin-left: 5%;
     margin-top: 1%;
   }
-  
+
   .ikonerBorder .atomicheaderikoner {
     font-size: 20px;
     color: white;
     margin-left: 5%;
     margin-top: 5%;
   }
-  
-  
-  
-  
-  
+
+
+
+
+
   /* ---  Navigation  --- */
-  
+
   .navigationBorder {
       padding-bottom: 5%;
   }
-  
-  
+
+
   .navigationSection {
     width: 100%;
     height: auto;
@@ -1503,7 +1503,7 @@
     font-family: proxima-nova, sans-serif;
     margin-top: 5%;
   }
-  
+
   .navigationSection h1 {
     margin-top: 60px;
     margin-bottom: 5%;
@@ -1511,69 +1511,69 @@
     width: 100%;
     color: #383434;
   }
-  
+
   .navigationSection p {
       width: 100%;
       font-size: 16px;
       color: #383434;
   }
-  
+
   .navigationSection article {
     width: 35%;
   }
-  
+
   .navigationSection article h2 {
     color: #383434;
     margin-top: 5%;
     font-size: 40px;
   }
-  
+
   .navigationSection article h3 {
     color: #383434;
     margin-top: 10%;
     margin-bottom: 5%;
     text-decoration: none;
   }
-  
+
   .navigationSection article a {
     font-size: 16px;
     color: #383434;
   }
-  
-  
+
+
   /*CODE SNIPPETS*/
-  
+
   .navigationSection .ptools {
     width: 40%;
     margin-left: -5%;
   }
-  
+
   .navigationSection .ptools h2 {
     color: #383434;
     font-size: 40px;
     margin-left: 20%;
     margin-top: 60px;
   }
-  
+
   .navigationSection .ptools h3 {
     color: #383434;
     margin-left: 20%;
     margin-top: 5%;
-  
+
   }
-  
+
   .navigationSection .ptools hr {
     width: 100%;
     margin: 10px 0;
     margin-left: 20%;
   }
-  
+
   .navigationSection .ptools p {
     color: #383434;
     font-size: 20px;
     margin: 10px 0;
   }
-  
+
   .codeEmbed {
     position: relative;
     padding: 20px;
@@ -1583,16 +1583,16 @@
     margin-left: 20%;
     width: 75%;
   }
-  
+
   .codeEmbed code {
     font-size: 20px;
   }
-  
-  
+
+
   /* MAIN NAV */
-  
-  
-  
+
+
+
   .side-nav {
     height: 20em;
     width: 12em;
@@ -1606,7 +1606,7 @@
     display: grid;
     text-decoration: none;
   }
-  
+
   .side-nav a {
     padding: 10px 10px 10px 30px;
     text-decoration: none;
@@ -1614,9 +1614,9 @@
     color: #fff;
     display: block;
     transition: 0.3s;
-  
+
   }
-  
+
   .type2{
     margin-left: 1em;
   }
@@ -1624,7 +1624,7 @@
   .side-nav a:hover{
     background-color: yellow;
   }
-  
+
   .type2 a{
     margin-bottom: -0.1em;
   }
@@ -1633,7 +1633,7 @@
     font-size: 0.8em;
     font-weight: 300;
   }
-  
+
   .logout{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1646,7 +1646,7 @@
   grid-column: 1;
   grid-row: 1;
   }
-  
+
   .logout a{
     grid-column: 1/-1;
     display: grid;
@@ -1661,12 +1661,12 @@
     font-size: 0.8em;
     justify-self: start;
   }
-  
+
   .fa-power-off {
     font-size: 0.8em;
   }
-  
-  
+
+
   .side-nav .btn-close {
     position: absolute;
     top: 0;
@@ -1674,13 +1674,13 @@
     font-size: 2em;
     margin-left: 50px;
   }
-  
-  
-  
-  
+
+
+
+
   /* SUB NAV*/
-  
-  
+
+
   .subnav{
   grid-column: 1/-1;
   grid-row: 2;
@@ -1690,7 +1690,7 @@
   padding-bottom: 10px;
   border: 1px solid #fff;
   }
-  
+
   .subnav a{
     display: inline-block;
     text-align: center;
@@ -1698,19 +1698,19 @@
     font-size: 3.3vw;
       margin-top: 10%;
   }
-  
+
   .favorit{
     grid-column: 1;
       color: #fff;
       text-decoration: none;
   }
-  
+
   .nærmeste{
   grid-column: 2;
   color: #fff;
   text-decoration: none;
   }
-  
+
   .underline{
     width: 60%;
     grid-row: 1;
@@ -1722,43 +1722,43 @@
     margin-top: 25%;
     z-index: 100;
   }
-  
-  
-  
+
+
+
   /* atomic navigation */
-  
+
   .atomicnav {
     width: 70%;
     margin-left: 5%;
     margin-top: 1%;
   }
-  
+
   .navigationBorder .atomicheadernav {
     font-size: 20px;
     color: white;
     margin-left: 5%;
     margin-top: 5%;
   }
-  
-  
+
+
 
 
 #theNidpContent {
 	/* Login-box */
-	background: white; 
-	margin: 0 auto 0 auto; 
-	width: 400px; 
+	background: white;
+	margin: 0 auto 0 auto;
+	width: 400px;
 	height: 220px;
 	padding: 80px 0px 0px 0px;
-	border-right: 2px solid rgba(59, 59, 59, 0.3); 
-	border-bottom: 2px solid rgba(59, 59, 59, 0.3); 
+	border-right: 2px solid rgba(59, 59, 59, 0.3);
+	border-bottom: 2px solid rgba(59, 59, 59, 0.3);
 
-	background-image: url(https://i.ucl.dk/eal-logo2.svg); 
-	background-repeat: no-repeat; 
-	background-position: top; 
-	background-position-x: 100px; 
+	background-image: url(https://i.ucl.dk/eal-logo2.svg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-position-x: 100px;
 	background-position-y: 30px;
-	background-size: 45%; 
+	background-size: 45%;
 }
 
 
@@ -1768,13 +1768,13 @@
 	}
 }
 
-#globalMessage { 
+#globalMessage {
 	margin: 0px auto;
   	text-align: center;
 	margin-right: 70px;
 }
 
-#mastheadTitle { 
+#mastheadTitle {
   	margin-left: 0%;
 }
 
@@ -1784,7 +1784,7 @@ input:focus {
 
 
 /* common controls and form elements */
-	
+
 input, textarea, select {
 	color: #1f1f1f;
 	font-size: 12px;
@@ -1795,18 +1795,18 @@ input, textarea, select {
 	}
 option .first-option {
 	color: #808080;
-	}	
+	}
 input[type="checkbox"] {
 	margin-right: 5px;
 	}
-		
+
 .label, .label-checkmark {
 	color: #434c50;
 	font-size: 13px;
 	}
 .label-checkmark {
 	padding-right: 10px;
-	}	
+	}
 .label-small {
 	color: #808080;
 	font-size: 10px;
@@ -1820,8 +1820,8 @@ input[type="checkbox"] {
 	letter-spacing: 1px;
 	padding-top: 7px;
 	padding-left: 20px;
-	}	
-	
+	}
+
 .input-signin-code input  {
 	font-size: 16px;
 	background: transparent;
@@ -1918,7 +1918,7 @@ input[type="checkbox"] {
 
 .login-page {
 	display: none;
-	}			
+	}
 .menu {
 	display:none;
 	position: absolute;
@@ -1932,11 +1932,11 @@ input[type="checkbox"] {
 	}
 .hover {
 	cursor: pointer;
-	}	
+	}
 	.action-but {
 		display: inline-block;
 		color: white;
-		background: #008393; 
+		background: #008393;
 		padding: 5px 15px;
 		margin-bottom: 5px;
 		margin-right: 5px;
@@ -1944,15 +1944,15 @@ input[type="checkbox"] {
 		font-size: 14px;
 		text-align: center;
     border-radius: 50px;
-		
-		
+
+
 		}
 	.action-but:hover {
-		background: #00454e; /* Changed */ 
+		background: #00454e; /* Changed */
 		cursor: pointer;
 		}
 
-.image-but {	
+.image-but {
 	display: inline-block;
 	text-align: center;
 	color: #697374;
@@ -1961,15 +1961,15 @@ input[type="checkbox"] {
 	padding: 3px;
 	margin-left: 10px;
 	}
-.image-but:hover {	
+.image-but:hover {
 	background: #f6f9f8;
 	border: 1px solid #eef2f2;
 	}
 .image-but img {
 	height: 20px;
 	vertical-align: text-bottom;
-	}		
-	
+	}
+
 .tabs {
 	position: relative;
 	color: #808080;
@@ -1979,7 +1979,7 @@ input[type="checkbox"] {
 	padding: 0;
 	overflow: hidden;
 	z-index: 600;
-	}	
+	}
 	.tabs span.spacer-tab {
 		width: 40px;
 		}
@@ -1990,7 +1990,7 @@ input[type="checkbox"] {
 		margin-left: 69px;
 		padding: 10px 30px 10px 10px;
 		border-left: 1px solid #dae1e1;
-		}	
+		}
 	.tabs div#search-but, .alert-head div#search-but {
 		position: absolute;
 		top: 11px;
@@ -2019,7 +2019,7 @@ input[type="checkbox"] {
 		.last-tab {
 			margin-right: 25px;
 			border-right: 1px solid transparent !important;
-			}	
+			}
 		.custom-tab-drop {
 				color: #fff;
 				background: #0088CE;
@@ -2068,7 +2068,7 @@ input[type="checkbox"] {
 
 .menu-open {
 	cursor: pointer;
-	}	
+	}
 .menu-option:hover, .menu-option-mark:hover {
 	background: #59656a;
 	border-radius: 2px;
@@ -2097,12 +2097,12 @@ input[type="checkbox"] {
 	img.menu-mark-2 {
 		display: block;
 		top: 17px;
-		}	
+		}
 .menu-separator {
 	border-top: 1px solid #626e72;
 	height: 5px;
 	margin-top: 5px;
-	}	
+	}
 
 .content {
 	position: relative;
@@ -2128,11 +2128,11 @@ input[type="checkbox"] {
 	}
 .dialog-content {
 	padding: 15px;
-	}	
+	}
 .dialog-title:hover {
 	cursor: move;
 	}
-	
+
 .dialog .close-but {
 	position: absolute;
 	top: 7px;
@@ -2155,7 +2155,7 @@ input[type="checkbox"] {
 .list-div {
 	height: 50px;
 	overflow: auto;
-	}	
+	}
 .list-item {
 	color: #0088ce;
 	font-size: 12px;
@@ -2174,7 +2174,7 @@ input[type="checkbox"] {
   margin: 5px 1px 3px 0px;
   border: 1px solid #DDDDDD;
 }
- 
+
 .textarea-glow:focus {
   box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   padding: 3px 0px 3px 3px;
@@ -2183,7 +2183,7 @@ input[type="checkbox"] {
 }
 
 .dlg-txt {
-	color: #333333; 
+	color: #333333;
 	font-size: 16px;
 }
 
@@ -2191,5 +2191,3 @@ input[type="checkbox"] {
 	color: #808080;
 	font-size: 14px;
 }
-
-
