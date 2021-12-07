@@ -35,7 +35,7 @@
   .asideWrapper {
       height: 100%;
       min-width: 20%;
-      background-color: #BA563E;
+      background-color: #69285D;
       position: fixed;
       flex-direction: column;
       justify-content: center;
@@ -844,7 +844,7 @@
     font-size: 22px;
     border-radius: 5px;
     box-shadow: 2px 4px 8px #383434b2;
-    background-color: #BA563E;
+    background-color: #F4F3F1;
 
     border: none;
     text-align: center;
@@ -865,14 +865,14 @@
     font-size: 22px;
     border-radius: 5px;
     box-shadow: 2px 4px 8px #383434b2;
-    background-color: #5D7F8E;
+    background-color: #D4A675;
 
     border: none;
     text-align: center;
     text-decoration: none;
     margin-top: 40px;
     margin-bottom: 40px;
-    border-radius: 50px;
+
   }
 
   .standardBtnBlue:hover {
