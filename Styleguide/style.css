@@ -840,7 +840,7 @@
   .standardBtn {
     display: block;
     padding: 20px 170px;
-    color: white;
+    color: #707070;
     font-size: 22px;
     border-radius: 5px;
     box-shadow: 2px 4px 8px #383434b2;
@@ -855,7 +855,7 @@
   }
 
   .standardBtn:hover {
-    background-color: #600000;
+    background-color: white;
   }
 
   .standardBtnBlue {
@@ -876,7 +876,7 @@
   }
 
   .standardBtnBlue:hover {
-    background-color: #22313F;
+    background-color: #EAC398;
   }
 
 
