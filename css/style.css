@@ -7,7 +7,7 @@ li, a, button{
   font-family: Poppins;
   font-weight: regular 400;
   font-size: 20px;
-  color: #000000;
+  color: #D4A675;
   text-decoration: none;
 }
 
@@ -18,7 +18,7 @@ header{
   align-items: center;
   padding: 20px 5%;
   position: sticky;
-  background-color: #F1EFE8;
+  background-color:
 }
 
 .logo{
@@ -44,20 +44,4 @@ header{
 
 .nav-links li a:hover{
   color: #5E88BF;
-}
-
-button{
-  font-weight: bold;
-  margin-left: 20px;
-  padding: 3px 25px;
-  background-color: #C35C5C;
-  border: none;
-  color: white;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-}
-
-button:hover{
-  background-color: #C15353;
 }
