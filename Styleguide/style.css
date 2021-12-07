@@ -35,7 +35,7 @@
   .asideWrapper {
       height: 100%;
       min-width: 20%;
-      background-color: #BA563E;
+      background-color: #69285D;
       position: fixed;
       flex-direction: column;
       justify-content: center;
@@ -669,32 +669,7 @@
 
   }
 
-  .btn-group .button1 {
-    border: 2px solid #BA563E;
-    color: #BA563E;
-    width: 40%;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    float: left;
-    border-radius: 30px 0px 0px 30px;
-  }
-  .btn-group .button2 {
-    border: 2px solid #BA563E;
-    color: #BA563E;
-    width: 40%;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    float: left;
-    border-radius: 0px 30px 30px 0px ;
-  }
+
 
   .btn-group .button1:not(:last-child) {
     border-right: none; /* Prevent double borders */
@@ -840,22 +815,22 @@
   .standardBtn {
     display: block;
     padding: 20px 170px;
-    color: white;
+    color: #707070;
     font-size: 22px;
     border-radius: 5px;
     box-shadow: 2px 4px 8px #383434b2;
-    background-color: #BA563E;
+    background-color: #F4F3F1;
 
     border: none;
     text-align: center;
     text-decoration: none;
     margin-top: 40px;
     margin-bottom: 40px;
-    border-radius: 50px;
+
   }
 
   .standardBtn:hover {
-    background-color: #600000;
+    background-color: white;
   }
 
   .standardBtnBlue {
@@ -865,18 +840,18 @@
     font-size: 22px;
     border-radius: 5px;
     box-shadow: 2px 4px 8px #383434b2;
-    background-color: #5D7F8E;
+    background-color: #D4A675;
 
     border: none;
     text-align: center;
     text-decoration: none;
     margin-top: 40px;
     margin-bottom: 40px;
-    border-radius: 50px;
+
   }
 
   .standardBtnBlue:hover {
-    background-color: #22313F;
+    background-color: #EAC398;
   }
 
 
@@ -1008,7 +983,7 @@
   .inputBorder {
       padding-bottom: 5%;
       border-bottom: 2px solid white;
-      background-color: #383434;
+      background-color: #458284;
   }
 
 
