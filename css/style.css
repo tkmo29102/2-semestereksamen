@@ -48,7 +48,22 @@ header{
 h1{
 font-size: 25px;
 margin-left: 10%;
+align: center;
 }
+.container1{
+  display: flex;
+  justify-content: space-around;
+  background-color: #F1EFE8;
+}
+.box1{
+  display: flex;
+  flex-direction: column;
+  color: #707070;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  align: center;
+}
+
 
 footer{
   height: auto;
