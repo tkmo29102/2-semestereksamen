@@ -18,14 +18,13 @@ header{
   align-items: center;
   padding: 20px 5%;
   position: sticky;
-  background-color:
 }
 
 .logo{
   cursor: pointer;
   margin-right: 300px;
-  width: 300px;
-  height: 60px;
+  width: 160px;
+  height: 150px;
   padding-top: 15px;
 }
 
@@ -44,4 +43,9 @@ header{
 
 .nav-links li a:hover{
   color: #5E88BF;
+}
+
+h1{
+font-size: 20px;
+margin-left: 12%;
 }
