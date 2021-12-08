@@ -2,6 +2,7 @@
   font-family: poppins;
   margin: 0;
 }
+
 li, a, button{
   font-family: Poppins;
   font-weight: regular 400;
@@ -50,6 +51,7 @@ font-size: 25px;
 margin-left: 5%;
 align: center;
 }
+
 footer{
   height: auto;
   background-color: #F4F3F1;
