@@ -87,10 +87,10 @@ align: center;
   display: -ms-flexbox;
   display: flex;
   margin top: 0px;
-margin-bottom: 300px;
--webkit- box-pack: center;
--webkit-justify-content: center;
--ms-flex-pack: center;
-justify-comtent: center; 
+  margin-bottom: 200px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 
 }
