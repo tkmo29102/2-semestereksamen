@@ -86,5 +86,11 @@ align: center;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin top: 
+  margin top: 0px;
+margin-bottom: 300px;
+-webkit- box-pack: center;
+-webkit-justify-content: center;
+-ms-flex-pack: center;
+justify-comtent: center; 
+
 }
