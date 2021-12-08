@@ -75,5 +75,16 @@ align: center;
 .maindiv {
   width: 1200px;
   height: 278;
-  min-width: 1200%
+  min-width: 1200px;
+  background-color: #f4f3f1;
+  box-shadow: 0 14px 60px 0 rgba(0, 0, 0, 0.21);
+}
+
+
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin top: 
 }
