@@ -122,6 +122,9 @@ align: center;
 
 .heading {
   margin-top: 0px;
-  margin-bottom: 20px
-  font
+  margin-bottom: 0px;
+  font-family: 'open sans', sans-serif;
+  color: #fff;
+  font size: 23px;
+  font-weight:600; 
 }
