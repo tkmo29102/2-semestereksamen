@@ -81,7 +81,7 @@ align: center;
 
 .maindiv {
   width: 1200px;
-  height: 278;
+  height: 278px;
   min-width: 1200px;
   background-color: #f4f3f1;
   box-shadow: 0 14px 60px 0 rgba(0, 0, 0, 0.21);
@@ -126,5 +126,32 @@ align: center;
   font-family: 'open sans', sans-serif;
   color: #fff;
   font size: 23px;
-  font-weight:500; 
+  font-weight:500;
+}
+
+
+.imageandbuttondiv {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 30px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.button {
+  padding: 20px 50px;
+  background-color: #fff;
+  color: #3f3f3f;
 }
