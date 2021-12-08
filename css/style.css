@@ -62,10 +62,11 @@ align: center;
 text-align: center;
 }
 
-img{
-  width: 100%;
-  margin-top: 8%;
-}
+.boks video {
+    height: auto;
+    width: 100%;
+    margin-top: 0;
+  }
 
 .box2{
   width: 350px;
