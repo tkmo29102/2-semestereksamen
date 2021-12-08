@@ -75,4 +75,5 @@ align: center;
 .maindiv {
   width: 1200px;
   height: 278;
+  min-width: 1200%
 }
