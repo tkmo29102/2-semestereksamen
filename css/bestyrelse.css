@@ -28,6 +28,12 @@ header{
   margin-top: -5%;
 }
 
+h1{
+font-size: 25px;
+margin-left: 5%;
+align: center;
+}
+
 .nav-links{
   list-style: none;
 }
@@ -43,12 +49,6 @@ header{
 
 .nav-links li a:hover{
   color: #5E88BF;
-}
-
-h1{
-font-size: 25px;
-margin-left: 5%;
-align: center;
 }
 
 .container{
