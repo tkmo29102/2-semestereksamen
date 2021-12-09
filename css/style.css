@@ -106,6 +106,12 @@ footer{
   background-color: #F4F3F1;
 }
 
+.fa {
+
+    color: black;
+    margin-right: 100px;
+
+}
 .boksen{
   font-size: 10px;
   color: #707070;
@@ -116,7 +122,8 @@ footer{
   font-size: 10px;
   color: #707070;
   text-align: center;
-  margin-left: 300px;
+  margin-left: 150px;
+  margin-bottom: auto;
 }
 
 .container5{
@@ -136,10 +143,9 @@ p1{
 }
 
 .facebook{
-  color: #FFF4F4;
-  color: white;
-  font-size: 40px;
-  margin-top: 100px;
+  color: blue;
+  font-size: 80px;
+  margin-top: 10%;
 }
 
 .tilmeld{
