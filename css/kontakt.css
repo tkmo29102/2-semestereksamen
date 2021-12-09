@@ -146,6 +146,8 @@ footer{
   flex-direction: row;
   justify-content: space-around;
   margin: auto;
+  padding-top: 5%;
+  padding-bottom: 3%;
 }
 
 h3{
