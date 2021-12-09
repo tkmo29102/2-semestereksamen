@@ -66,6 +66,27 @@ header{
   font-size: 40px;
 }
 
+.hvemerbestyrelsen {
+  padding: 10px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 30px;
+  color:#69285D;
+}
+
+.hvadlaverbestyrelsen1 {
+  width: 350px;
+  height: 200px;
+  border: 1px black;
+  background-color: #F4F3F1;
+  margin-left: 35%;
+  margin-top: 10%;
+  text-align: center;
+  padding-top: 50px;
+}
 
 footer{
   height: auto;
