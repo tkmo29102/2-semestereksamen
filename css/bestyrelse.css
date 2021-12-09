@@ -132,6 +132,12 @@ color: #69285D;
   padding-top: 50px;
 }
 
+.tiltop {
+  margin-left: 1150px;
+  background-color: #white;
+  font-size: 55px;
+}
+
 footer{
   height: auto;
   background-color: #F4F3F1;
