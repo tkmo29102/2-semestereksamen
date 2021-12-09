@@ -2,6 +2,7 @@
   font-family: poppins;
   margin: 0;
 }
+
 li, a, button{
   font-family: Poppins;
   font-weight: regular 400;
@@ -28,12 +29,6 @@ header{
   margin-top: -5%;
 }
 
-h1{
-font-size: 25px;
-margin-left: 5%;
-align: center;
-}
-
 .nav-links{
   list-style: none;
 }
@@ -50,6 +45,7 @@ align: center;
 .nav-links li a:hover{
   color: #5E88BF;
 }
+
 
 .container{
   display: flex;
