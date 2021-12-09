@@ -1,7 +1,55 @@
-
 *{
   font-family: poppins;
   margin: 0;
+}
+
+li, a, button{
+  font-family: Poppins;
+  font-weight: regular 400;
+  font-size: 20px;
+  color: #D4A675;
+  text-decoration: none;
+}
+
+
+header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 5%;
+  position: sticky;
+  padding-top: 50px;
+}
+
+.logo{
+  cursor: pointer;
+  margin-left: 10%;
+  width: 160px;
+  height: 150px;
+  margin-top: -5%;
+}
+
+.nav-links{
+  list-style: none;
+}
+
+.nav-links li{
+  display: inline-block;
+  padding: 0px 40px;
+}
+
+.nav-links li a{
+  transition: all.0.3 ease 0s;
+}
+
+.nav-links li a:hover{
+  color: #5E88BF;
+}
+
+h1{
+font-size: 25px;
+margin-left: 5%;
+align: center;
 }
 
 .container{
