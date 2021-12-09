@@ -5,21 +5,92 @@
     <title>Odense Højskoleforening</title>
       <link rel="stylesheet" href="../css/style.css">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../css/style.css">
-    <script src="../js/nyhedsbrev.js" defer> </script>
+<link rel="stylesheet" href="../css/kontakt.css">
+
   </head>
   <body>
     <header>
-  <a href="index.html"> <img class="logo" src="../img/logo.png" alt="logo"></a>
   <nav>
     <ul class="nav-links">
+        <li><a href="index.html">Forside</a></li>
       <li><a href="program.html">Program og tilmelding</a></li>
       <li><a href="bestyrelse.html"></a>Bestyrelse</li>
         <li><a href="kontakt.html">Kontakt</a></li>
     </ul>
 </header>
+<a href="index.html"> <img class="logo" src="../img/logo.png" alt="logo"></a>
+<h1>Odense Højskoleforening</h1>
 
-<h1>Odense Højskoleforeing</h1>
+<div class="container">
+    <div class="tekstboksen">
+      <h2>Kontakt os her!</h2>
+    </div>
+  </div>
+
+  <div class="tekstboksen1">
+<p>Hvis du har nogen spørgsmål eller henvendelser til os, er du
+Velkommen til at udfylde denne formular.
+<br>
+Vi bestræber os på at besvare jeres henvendelser hurtigst muligt!</p>
+  </div>
+
+  <html>
+   <head>
+      <script>
+      function validateForm()
+{
+ var name = document.forms["myForm"]["name"];
+ var email = document.forms["myForm"]["email"];
+ var message = document.forms["myForm"]["message"];
+
+ if (name.value == "")
+
+ return true;
+}
+      </script>
+   </head>
+   <body>
+      <table class="form-style">
+      <tr>
+      <td>
+      <label>
+        Dit navn <span class="required">*</span>
+      </label>
+      </td>
+      <td>
+      <input type="text" name="name" class="long"/>
+      <span class="error" id="errorname"></span>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>
+                    Din email <span class="required">*</span>
+                  </label>
+               </td>
+               <td>
+                  <input type="email" name="email" class="long"/>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>
+                     Din besked<span class="required">*</span>
+                  </label>
+               </td>
+               <td>
+                  <textarea name="message" class="long field-textarea"></textarea>
+                  <span class="error" id="errormsg"></span>
+               </td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>
+                  <input type="submit" value="Send">
+               </td>
+            </tr>
+         </table>
+      </form>
   </body>
 
 </html>

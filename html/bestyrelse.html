@@ -5,21 +5,132 @@
     <title>Odense Højskoleforening</title>
       <link rel="stylesheet" href="../css/style.css">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../css/style.css">
-    <script src="../js/nyhedsbrev.js" defer> </script>
+<link rel="stylesheet" href="../css/bestyrelse.css">
+<link rel="stylesheet" href="../css/slideshow.css">
   </head>
   <body>
     <header>
-  <a href="index.html"> <img class="logo" src="../img/logo.png" alt="logo"></a>
+
+      <a href="index.html"> <img class="logo" src="../img/logo.png" alt="logo"></a>
+        <h1>Odense Højskoleforening</h1>
   <nav>
     <ul class="nav-links">
+        <li><a href="index.html">Forside</a></li>
       <li><a href="program.html">Program og tilmelding</a></li>
-      <li><a href="bestyrelse.html"></a>Bestyrelse</li>
-        <li><a href="kontakt.html">Kontakt</a></li>
+      <li><a href="bestyrelse.html">Bestyrelse</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
     </ul>
 </header>
 
-<h1>Odense Højskoleforeing</h1>
+<div class="container">
+    <div class="tekstboksen">
+      <h2>Bestyrelse</h2>
+    </div>
+  </div>
+
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+   <div class="numbertext">1/9</div>
+   <img src="../img/formand-jens.jpg">
+   <div class="text"> Jens Rahbek Nørgaard <br> Formand <br> Mail: formand@oh-odense.dk <br> Tlf: 24 82 14 53 </div>
+ </div>
+
+ <div class="mySlides fade">
+   <div class="numbertext">2/9</div>
+   <img src="../img/naestformand-soeren.jpg">
+   <div class="text"> Søren Ole Petersen <br> Næstformand <br> Mail: n-formand@oh-odense.dk <br> Tlf: 40 42 80 11</div>
+ </div>
+
+ <div class="mySlides fade">
+   <div class="numbertext">3/9</div>
+   <img src="../img/anne-grethe-sekretaer.jpg">
+   <div class="text"> Anne-Grethe Elkjær <br> Sekretær <br> Tlf: 66 17 92 93 </div>
+ </div>
+
+<div class="mySlides fade">
+  <div class="numbertext"> 4/9 </div>
+  <img src="../img/erna-kasserer.jpg">
+  <div class="text">Erna Overgaard <br> Kasserer <br> Mail: Kasserer@oh-odense.dk <br> Konto: 1127832 <br> Reg. nr: 6810 </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"> 5/9 </div>
+  <img src="../img/claus-bestyrelse.jpg">
+  <div class="text">Claus Chr. Koch <br> Tlf: 30 85 77 90 </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"> 6/9 </div>
+  <img src="../img/lars-bestyrelse.jpg">
+  <div class="text"> Lars Schelde <br> Tlf: 28 77 67 68 </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"> 7/9 </div>
+  <img src="../img/helen-jensen-bestyrelse.jpg">
+  <div class="text"> Helen Jensen <br> Tlf: 50 48 45 90 </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"> 8/9 </div>
+  <img src="../img/helen-dyrst-bestyrelse.jpg">
+  <div class="text"> Helen Dyrst </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"> 9/9 </div>
+  <img src="../img/marianne-bestyrelse.jpg">
+  <div class="text"> 	Marianne Lundsgaard <br> Tlf: 61 67 80 85 </div>
+</div>
+
+<div class="button">
+<a class ="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides (+1)">&#10095;</a>
+</div>
+<br>
+<br>
+<br>
+<h1> Hvad laver bestyrelsen?<h1>
+<br>
+<br>
+<div class="container">
+
   </body>
 
 </html>
+
+<script>
+var slideIndex = 1;
+  showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+
+
+  if (n > slides.length) {
+    slideIndex = 1
+  }
+
+  if (n < 1) {
+    slideIndex = slides.length
+  }
+
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+
+  slides[slideIndex-1].style.display = "block";
+
+}
+
+</script>
