@@ -89,6 +89,11 @@ align: center;
   margin-top: -14%;
 }
 
+.box3tekst {
+  margin-left: 11%;
+  margin-top: 23%;
+}
+
 .box4{
   width: 350px;
   height: 200px;
@@ -96,6 +101,11 @@ align: center;
   background-color: #69285D;
   margin-left: 70%;
   margin-top: -14%;
+}
+
+.box4tekst {
+  margin-left: 11%;
+  margin-top: 23%;
 }
 
 p{
