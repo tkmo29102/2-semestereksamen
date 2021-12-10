@@ -29,8 +29,8 @@
       </video>
         </div>
 
-<div class="box1"
-  <p1>Odense Højskoleforening har siden 6. december 1896 sat sit præg på det folkelige og kulturelle liv i Odense.
+<div id="box1" class="fontSmall">
+Odense Højskoleforening har siden 6. december 1896 sat sit præg på det folkelige og kulturelle liv i Odense.
 Den blev til, fordi nogle unge havde været på grundtvigsk højskole, og da de kom hjem, ønskede de i deres dagligdag
 at fastholde de værdier, de havde mødt dér.
 <br>
@@ -42,14 +42,41 @@ er Odense Højskoleforening her ved indgangen til sin 125 sæson stadig spilleve
 <br>
 Vi mødes for at tage tidens puls, høre foredrag, drøfte aktuelle samfundsspørgsmål og synge fra Højskolesangbogen.
 Vi tager på højskoleophold rundt om i landet, besøger lokale virksomheder samt institutioner og tager på en hyggelig sommerudflugt.
-Her vil man kunne finde programmet for sæsonen og få information om foreningen. </p1>>
+Her vil man kunne finde programmet for sæsonen og få information om foreningen.
 </div>
+
+
+
+<div id="ButtonSection">
+<button id="englargeButton" type="button" onclick="myFunction()">
+  <img src="../img/glasses.png" width="30">
+</button>
+
+<script>
+
+
+function myFunction() {
+
+  var x = document.getElementById("box1");
+
+  if (x.style.fontSize === "20px") {
+    x.style.fontSize = "27px";
+  } else {
+    x.style.fontSize = "20px";
+  }
+}
+
+</script>
+
+
+
+
 
 <div class="box2">
     <a href="program.html"> <p>Program <br> og <br> tilmelding</p></a>
 </div>
 
-<div class="box3"> 
+<div class="box3">
 <a href="bestyrelse.html"> <div class="box3tekst"><p>Bestyrelse</p> </div></a>
 </div>
 
