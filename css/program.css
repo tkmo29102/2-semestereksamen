@@ -235,3 +235,9 @@ p1{
   cursor: pointer;
   border-radius: 10px;
 }
+
+.tiltop {
+  margin-left: 1150px;
+  background-color: #white;
+  font-size: 55px;
+}
