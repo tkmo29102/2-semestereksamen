@@ -97,7 +97,8 @@ img{
   width: 500px;
   height: 300px;
   margin-left: 7%;
-  margin-top: -23%;
+  margin-top: -14%;
+
 }
 
 
@@ -106,10 +107,10 @@ img{
 .information{
   display: flex;
   flex-direction: column;
-  color: #707070;
+  color: black;
   padding-left: 94px;
   padding-right: 410px;
-  margin-top: 16%;
+  margin-top: 5%;
 }
 
 /* KNAPPER */
