@@ -146,6 +146,8 @@ footer{
   flex-direction: row;
   justify-content: space-around;
   margin: auto;
+  padding-top: 5%;
+  padding-bottom: 3%;
 }
 
 h3{
@@ -165,7 +167,7 @@ p1{
 
 .tilmeld{
   width: 100%;
-  background-color: black;
+  background-color: #D4A675;
   border-radius: 10px;
 }
 
