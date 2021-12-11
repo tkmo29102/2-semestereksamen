@@ -63,9 +63,6 @@ align: center;
   font-size: 20px;
 }
 
-
-
-
 #englargeButton {
   background-color: #F4F3F1;
   decoration: none;
@@ -81,7 +78,6 @@ align: center;
   border: solid 0.5px;
   border-color: #CECECE;
 }
-
 
 #ButtonSection {
   margin-top: 50px;
@@ -113,6 +109,7 @@ align: center;
   background-color: #D4A675;
   margin-left: 40%;
   margin-top: -14%;
+
 }
 
 .box3tekst {
