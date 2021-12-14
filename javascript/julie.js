@@ -1,4 +1,4 @@
-document.getElementById("grid__btn2").addEventListener("click", function() {
+document.getElementById("tilmeldknap").addEventListener("click", function() {
     document.querySelector(".tilmeldpopup").style.display = "flex";
   })
 
