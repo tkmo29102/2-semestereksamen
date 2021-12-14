@@ -11,5 +11,4 @@ function()
 var name = document.forms["myForm"]["name"];
 var email = document.forms["myForm"]["email"];
 var message = document.forms["myForm"]["message"];
-
 }
