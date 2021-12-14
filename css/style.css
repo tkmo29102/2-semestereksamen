@@ -189,12 +189,12 @@ p1{
 }
 
 
-.cta3{
+#grid__btn2 {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 3px 25px;
-  background-color: #D4A675;
+  background-color: #EAC398;
   border: none;
   cursor: pointer;
   transition: all 0.3s ease 0s;
@@ -202,7 +202,6 @@ p1{
   border-radius: 10px;
   color: white;
 }
-
 
 .tilmeldpopup{
     width: 400px;
@@ -235,26 +234,14 @@ p1{
     margin-top: 150px;
   }
 
-  #grid__btn2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #EAC398;
-    width: 10rem;
-    height: 2rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    border-radius: 4px;
-    font-size: 0.8rem;
 
-}
 
 .email{
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 8px 25px;
-  width: 80%;
+  width: 91%;
   border: none;
   cursor: pointer;
   border-radius: 10px;
