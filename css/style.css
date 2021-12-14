@@ -146,7 +146,7 @@ footer{
 
 .fa {
 
-    color: black;
+    color: BLACK;
     margin-right: 100px;
 
 }
@@ -189,7 +189,6 @@ p1{
 }
 
 
-
 .cta3{
   display: flex;
   align-items: center;
@@ -202,6 +201,52 @@ p1{
   width:92%;
   border-radius: 10px;
   color: white;
+}
+
+
+.tilmeldpopup{
+    width: 400px;
+    height: 400px;
+    background-color: #ffff;
+    display: none; /*predifineret at siden ikke skal være synlig når siden loader*/
+    flex-direction: column;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    z-index: 99;
+  }
+
+  #tilmeldpopup-kryds{
+    background-color: var(--blue);
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    margin-left: 350px;
+    margin-top: 10px;
+    text-align: center;
+    display: flex; /*Når popupboksen er synlig skal krydet vises på popupboksen*/
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tilmeldpopup h4{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 150px;
+  }
+
+  #grid__btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAC398;
+    width: 10rem;
+    height: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 4px;
+    font-size: 0.8rem;
+
 }
 
 .email{
