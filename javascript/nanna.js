@@ -4,6 +4,7 @@ document.getElementById('vid').play();
 <source src="../video/Højskoleforening.mp4" type="video/mp4" loop autoplay>
 
 //kontaktside
+
 function validateForm()
 {
 var name = document.forms["myForm"]["name"];
