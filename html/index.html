@@ -30,8 +30,8 @@
       </video>
         </div>
 
-<div class="box1">
-  <p1>Odense Højskoleforening har siden 6. december 1896 sat sit præg på det folkelige og kulturelle liv i Odense.
+<div id="box1" class="fontSmall">
+Odense Højskoleforening har siden 6. december 1896 sat sit præg på det folkelige og kulturelle liv i Odense.
 Den blev til, fordi nogle unge havde været på grundtvigsk højskole, og da de kom hjem, ønskede de i deres dagligdag
 at fastholde de værdier, de havde mødt dér.
 <br>
@@ -43,18 +43,51 @@ er Odense Højskoleforening her ved indgangen til sin 125 sæson stadig spilleve
 <br>
 Vi mødes for at tage tidens puls, høre foredrag, drøfte aktuelle samfundsspørgsmål og synge fra Højskolesangbogen.
 Vi tager på højskoleophold rundt om i landet, besøger lokale virksomheder samt institutioner og tager på en hyggelig sommerudflugt.
-Her vil man kunne finde programmet for sæsonen og få information om foreningen. </p1>
+Her vil man kunne finde programmet for sæsonen og få information om foreningen.
 </div>
 
+<<<<<<< HEAD
 <div class="box2">
     <a href="program.html"> <p>Program <br>og <br> tilmelding</p></a>
+=======
+>>>>>>> 8b25a6fa18a125b7aa970d43b9a7d22f869f2a2c
 
+
+<div id="ButtonSection">
+<button id="englargeButton" type="button" onclick="myFunction()">
+  <img src="../img/glasses.png" width="30">
+</button>
+
+<script>
+
+
+function myFunction() {
+
+  var x = document.getElementById("box1");
+
+  if (x.style.fontSize === "27px") {
+    x.style.fontSize = "20px";
+  } else {
+    x.style.fontSize = "27px";
+  }
+}
+
+</script>
+
+
+
+
+
+<div class="box2">
+    <a href="program.html"> <p>PROGRAM <br> OG <br> TILMELDING</p></a>
 </div>
+
 <div class="box3">
-  <a href="bestyrelse.html"> <p>Bestyrelse</p></a>
+<a href="bestyrelse.html"> <div class="box3tekst"><p>BESTYRELSE</p> </div></a>
 </div>
+
 <div class="box4">
-  <a href="kontakt.html"> <p>Kontakt</p></a>
+  <a href="kontakt.html"> <div class="box4tekst"><p>KONTAKT</p></div> </a>
 </div>
 <br>
 <br>
@@ -67,7 +100,7 @@ Her vil man kunne finde programmet for sæsonen og få information om foreningen
       <div class="boksen">
         <h3> Kontaktoplysninger </h3>
         <br>
-        <p1> <b> Addresse: </b>
+        <p1> <b> Adresse: </b>
         <br>
       Hjallesevej 2, Odense
         <br>
@@ -93,9 +126,10 @@ Her vil man kunne finde programmet for sæsonen og få information om foreningen
 <br>
 <br>
         <div class="inputBox">
-          <input class="email" type="text" id="lname" name="lastname" placeholder="Email addresse..">
+          <input class="email" type="text" id="lname" name="lastname" placeholder="Indtast E-mail addresse">
         </div>
         <br>
+<<<<<<< HEAD
         <div class="tilmeld">
           <a class="cta3" onclick="pindsvin()"> Tilmeld </a>
           <div class="tilmeldpopup">
@@ -108,6 +142,9 @@ Her vil man kunne finde programmet for sæsonen og få information om foreningen
                             Tilmeld
                         </div>
                     </a>
+=======
+        <button type="button" class="cta3" onclick="alert('Du er nu tilmeldt');"> Tilmeld </button>
+>>>>>>> 8b25a6fa18a125b7aa970d43b9a7d22f869f2a2c
         </div>
 
       </div>
