@@ -104,7 +104,7 @@ font-size: 20px;
   color:red;
 }
 .form-style input[type=submit], .form-style input[type=reset]{
-  background: #4eb5f1;
+  background: #CEA170;
   padding: 8px 15px 8px 15px;
   border: none;
   color: #fff;
@@ -124,7 +124,7 @@ textarea{
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  border:1px solid #BEBEBE;
+  border:1px solid #CEA170;
   padding: 7px;
   margin:0px;
   -webkit-transition: all 0.30s ease-in-out;
@@ -139,14 +139,14 @@ textarea{
 .form-style input[type=text]:focus,
 .form-style input[type=email]:focus,
 .form-style textarea:focus{
-  -moz-box-shadow: 0 0 8px #88D5E9;
-  -webkit-box-shadow: 0 0 8px #88D5E9;
-  box-shadow: 0 0 8px #88D5E9;
-  border: 1px solid #88D5E9;
+  -moz-box-shadow: 0 0 8px #CEA170;
+  -webkit-box-shadow: 0 0 8px #CEA170;
+  box-shadow: 0 0 8px #CEA170;
+  border: 1px solid #CEA170;
 }
 .error{
-  color: red;
-  background-color: red;
+  color: #CEA170;
+  background-color: white;
 }
 
 .fa {
