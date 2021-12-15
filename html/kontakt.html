@@ -41,55 +41,53 @@ Vi bestræber os på at besvare jeres henvendelser hurtigst muligt!</p>
 <br>
 <br>
    </head>
+</head>
+<body>
+
+   <form name="myForm" action="/file.php" onsubmit="return validateForm()" method="post">
       <table class="form-style">
-      <tr>
-      <td>
-      <label>
-        Dit navn <span class="required">*</span>
-      </label>
-      </td>
-      <td>
-      <input type="text" name="name" class="long"/>
-      <span class="error" id="errorname"></span>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <label>
-                    Din E-mail <span class="required">*</span>
-                  </label>
-               </td>
-               <td>
-                  <input type="email" name="email" class="long"/>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <label>
-                     Din besked<span class="required">*</span>
-                  </label>
-               </td>
-            </tr>
-            <tr>
+         <tr>
             <td>
-            <input type="text" name="name" class="long"/>
-            <span class="error" id="errorname"></span>
-                     </td>
-                  </tr>
-
-
-
-
-
-
-            <tr>
-               <td></td>
-               <td>
-                  <input type="submit" value="Send">
-               </td>
-            </tr>
-         </table>
-      </form>
+               <label>
+                  Dit navn <span class="required">*</span>
+               </label>
+            </td>
+            <td>
+               <input type="text" name="name" class="long"/>
+               <span class="error" id="errorname"></span>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <label>
+                 Din e-mail adresse<span class="required">*</span>
+               </label>
+            </td>
+            <td>
+               <input type="email" name="email" class="long"/>
+               <span class="error" id="erroremail"></span>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <label>
+                  Skriv din besked her<span class="required">*</span>
+               </label>
+            </td>
+            <td>
+               <textarea name="message" class="long field-textarea"></textarea>
+               <span class="error" id="errormsg"></span>
+            </td>
+         </tr>
+         <tr>
+            <td></td>
+            <td>
+               <input type="submit" value="Send">
+               <input type="reset" value="Slet">
+            </td>
+         </tr>
+      </table>
+   </form>
       <footer>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <div class="container5">
