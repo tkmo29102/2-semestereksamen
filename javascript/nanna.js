@@ -1,8 +1,5 @@
 //video Forside
 document.getElementById('vid').play();
-<video autoplay muted loop
-<source src="../video/Højskoleforening.mp4" type="video/mp4" loop autoplay>
-</video>
 
 //kontaktside
 {
