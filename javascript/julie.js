@@ -8,7 +8,7 @@ document.getElementById("tilmeldknap").addEventListener("click", function() {
 
   /*var klasseliste = ['Malthe' , 'julie' , 'Nanna' , 'Laura' , 'Maria' , 'Frederik' , 'Trine' , 'Mariam'];
 
-  for (var 1 = 0; i < klasseliste.length; i++) {
+  for (var i = 0; i < klasseliste.length; i++) {
     console.log(klasseliste[i]);
   }
 
@@ -19,7 +19,7 @@ document.getElementById("tilmeldknap").addEventListener("click", function() {
       console.log('jeg kommer i gruppe med dem jeg vil');
   }
 
-    else if (x < y) {
+    else if (x > y) {
       console.log('jeg kommer ikke i den gruppe, som jeg gerne vil');
   }
 

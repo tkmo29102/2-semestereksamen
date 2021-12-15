@@ -194,7 +194,7 @@ p1{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 3px 25px;
+  padding: 8px 25px;
   background-color: #EAC398;
   border: none;
   cursor: pointer;
@@ -208,7 +208,7 @@ p1{
     width: 400px;
     height: 400px;
     background-color: #ffff;
-    display: none; /*predifineret at siden ikke skal være synlig når siden loader*/
+    display: none; 
     flex-direction: column;
     margin: auto;
     border-radius: 10px;
@@ -217,14 +217,13 @@ p1{
   }
 
   #luknedkryds{
-    background-color: var(--black);
     width: 30px;
     height: 30px;
     border-radius: 40px;
     margin-left: 350px;
     margin-top: 10px;
     text-align: center;
-    display: flex; /*Når popupboksen er synlig skal krydet vises på popupboksen*/
+    display: flex;
     align-items: center;
     justify-content: center;
   }
